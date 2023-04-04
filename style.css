@@ -1,0 +1,43 @@
+.유튜브 {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.도플라밍고 {
+  width: 100px;
+}
+.남자아이 {
+  width: 100px;
+}
+.under {
+  text-decoration: none;
+}
+.구글 {
+  width: 100px;
+  text-decoration: none;
+}
+.네이버 {
+  width: 100px;
+  text-decoration: none;
+}
+.google,.naver {
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 5px 5px rgb(16, 15, 15);
+  /* text-align: center; */
+  border: 2px solid red;
+  border-radius: 50%;
+}
+.구글2 {
+  text-align: right;
+}
+.네이버2 {
+  text-align: left;
+}
+.link-prac {
+  width: 300px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.img-center,.img-center2 {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.google {
+  width: 500px;
+  height: 330px;
+  box-shadow: 10px 5px 5px rgb(16, 15, 15);
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.naver {
+  width: 500px;
+  height: 400px;
+  box-shadow: 10px 5px 5px rgb(16, 15, 15);
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.네이버 {
+  text-decoration: none;
+  width: 400px;
+}
+.구글 {
+  text-decoration: none;
+  width: 400px;
+}
+.img-center,.img-center2 {
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="중요한 것은 꺾이지 않는 마음">
+    <meta name="keywords" content="a, HTML">
+    <meta name="author" content="배현진">
+    <title>a태그 복습</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <a href="http://google.com">누르면 링크로 이동</a>
+    <a href="http://naver.com">
+      <img class="도플라밍고" src="./images/도플라밍고.jpg">
+    </a>
+    <div>
+      <img class="남자아이" src="./images/남자아이.jpg">
+      <p>
+        <a class="유튜브" href="http://youtube.com">여기</a>를 눌렀을 때 링크 이동
+      </p>
+      <h1 class="under">밑줄</h1>
+    </div>
+
+    <h3>새 창에서 링크 오픈</h3>
+    <div>
+      <a class="구글" href="http://google.com" target="_blank">
+      <img class="구글" src="./images/구글.gif">
+      </a>구글
+    </div>
+    <!--target="_self : 기본값으로 되어 있어 굳이 입력하지 않아도 됨-->
+    <h3>현재창에서 링크 오픈</h3>
+    <div>
+      <a class="네이버" href="http://naver.com" target="_self">
+      <img class="네이버" src="./images/네이버.png">
+      </a>네이버
+    </div>
+    <div class="link-prac">
+      <div class="google img-center"><!--별명을 두개로 만들 수 있음-->
+        <h2 class="구글2">구글로 이동하기</h2>
+        <a href="http://google.com" target="_blank">
+          <img src="./images/구글.gif">
+        </a>
+      </div>
+      <div class="naver img-center2">
+        <h2 class="네이버2">네이버로 이동하기</h2>
+        <a href="http://naver.com" target="_blank">
+          <img src="./images/네이버.png">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+<!--<a>태그 자체가 밑줄 기능이 있어 반드시 스타일에"text-decoration: none;"을 만들어 줘야 됨.-->
+<!--스타일"border-radius: 50%;"로 만들면 원이 됨-->
